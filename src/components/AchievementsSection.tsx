@@ -6,6 +6,7 @@ const achievements = [
   "Vaman Project – Venus Transit research contribution (acknowledged in Resonance journal)",
   "Multiple national workshops and training programs in physics education",
   "International Conference presentation (ICRTSE-2016)",
+  "A student group under my mentorship was recognized in the UAE Climate Action Award 2024, achieving 4th rank nationwide in the United Arab Emirates",
 ];
 
 const publications = [
