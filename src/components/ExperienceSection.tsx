@@ -46,7 +46,7 @@ const jobs = [
     ],
   },
   {
-    role: "Lecturer",
+    role: "Assistant Professor",
     org: "TGP College of Engineering, India",
     period: "2007 – 2009",
     points: ["Taught applied physics and supervised lab sessions"],
