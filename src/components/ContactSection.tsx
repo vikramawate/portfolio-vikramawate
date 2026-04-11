@@ -103,8 +103,9 @@ const ContactSection = () => {
               required
               className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/40 resize-none"
             />
-            <Button type="submit" size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 w-full gap-2">
-              <Send className="w-4 h-4" /> Send Message
+            <Button type="submit" size="lg" disabled={loading} className="bg-accent text-accent-foreground hover:bg-accent/90 w-full gap-2">
+              {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
+              {loading ? "Sending..." : "Send Message"}
             </Button>
           </motion.form>
         </div>
