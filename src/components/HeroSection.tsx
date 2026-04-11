@@ -80,7 +80,7 @@ const HeroSection = () => (
             <img src={profilePhoto} alt="Dr. Vikram R. Awate" className="w-full h-full object-cover" width={512} height={640} />
           </div>
           <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-5 py-2 rounded-full font-body font-semibold shadow-lg">
-            Science Leader
+            Head of Science
           </div>
         </div>
       </motion.div>
