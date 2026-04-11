@@ -25,7 +25,7 @@ const HeroSection = () => (
         </p>
         <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-4">
           Hello, I'm <br />
-          <span className="text-highlight">Dr. Vikram R. Awate</span>
+          <span className="text-highlight">Dr. Vikram Rajendra Awate</span>
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/90 font-body mb-2">
           Physics Educator &amp; Academic Leader
