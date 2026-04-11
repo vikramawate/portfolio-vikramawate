@@ -21,7 +21,7 @@ const ContactSection = () => {
       <div className="container mx-auto max-w-5xl">
         <p className="text-highlight font-semibold uppercase tracking-widest text-sm mb-2 text-center">Contact</p>
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-14">
-          Got a Project? Let's Talk
+          Reach Out for Academic Opportunities
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12">
