@@ -3,7 +3,6 @@ import { Trophy, FileText } from "lucide-react";
 
 const achievements = [
   "Certified Microsoft Innovative Educator",
-  "Participation in National Science Day (2005)",
   "Vaman Project – Venus Transit research contribution (acknowledged in Resonance journal)",
   "Multiple national workshops and training programs in physics education",
   "International Conference presentation (ICRTSE-2016)",
