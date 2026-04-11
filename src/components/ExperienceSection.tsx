@@ -37,7 +37,7 @@ const jobs = [
     points: ["Coordinated academic planning across departments", "Facilitated teacher training workshops"],
   },
   {
-    role: "Lecturer",
+    role: "Assistant Professor",
     org: "S.B. Jain Institute of Technology, India",
     period: "2009 – 2018",
     points: [
