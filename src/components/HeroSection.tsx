@@ -59,7 +59,7 @@ const HeroSection = () => (
           {[
             { num: "18+", label: "Years Experience" },
             { num: "Ph.D.", label: "in Physics" },
-            { num: "3", label: "Countries" },
+            { num: "2", label: "Countries" },
           ].map((s) => (
             <div key={s.label}>
               <p className="text-3xl font-heading font-bold text-highlight">{s.num}</p>
