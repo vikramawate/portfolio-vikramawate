@@ -44,9 +44,6 @@ const Navbar = () => {
               {l.label}
             </a>
           ))}
-          <Button size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90 gap-2">
-            <Download className="w-4 h-4" /> Download CV
-          </Button>
         </div>
 
         {/* Mobile toggle */}
