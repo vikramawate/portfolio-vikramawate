@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import profilePhoto from "@/assets/profile-photo.jpg";
+const profilePhoto = "https://i.postimg.cc/43yWzRPY/Vikram-Photograph-Nero-AI-Image-Upscaler-Photo-Face-(1).jpg";
 import scienceBg from "@/assets/science-bg.jpg";
 
 const HeroSection = () => (
