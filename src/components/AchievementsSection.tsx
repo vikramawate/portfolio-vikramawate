@@ -59,7 +59,7 @@ const AchievementsSection = () => (
             <div className="w-10 h-10 rounded-full bg-cyan-light flex items-center justify-center">
               <FileText className="w-5 h-5 text-accent" />
             </div>
-            <h3 className="font-heading font-bold text-xl">Publications</h3>
+            <h3 className="font-heading font-bold text-xl">Major Publications</h3>
           </div>
           <ul className="space-y-4">
             {publications.map((p) => (
