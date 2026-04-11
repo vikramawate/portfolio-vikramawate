@@ -1,19 +1,33 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Phone, Mail, Send } from "lucide-react";
+import { Phone, Mail, Send, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
+import { toast } from "sonner";
+import emailjs from "@emailjs/browser";
 
 const ContactSection = () => {
-  const { toast } = useToast();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({ title: "Message sent!", description: "Thank you for reaching out. I'll respond soon." });
-    setForm({ name: "", email: "", message: "" });
+    setLoading(true);
+    try {
+      await emailjs.send(
+        "service_27lphyp",
+        "template_61wntne",
+        { from_name: form.name, from_email: form.email, message: form.message },
+        "Fj-cmC731gcd_23d-"
+      );
+      toast.success("Message sent! I'll respond soon.");
+      setForm({ name: "", email: "", message: "" });
+    } catch {
+      toast.error("Failed to send message. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
