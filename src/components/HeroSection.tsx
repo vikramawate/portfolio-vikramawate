@@ -45,8 +45,7 @@ const HeroSection = () => (
           <Button
             asChild
             size="lg"
-            variant="outline"
-            className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10"
+            className="bg-accent text-accent-foreground hover:bg-accent/90"
           >
             <a href="#contact">
               <Mail className="w-4 h-4 mr-2" /> Contact
