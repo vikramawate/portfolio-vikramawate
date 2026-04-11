@@ -13,6 +13,7 @@ const publications = [
   "Eco-friendly nanophosphor research — Elsevier, Results in Physics (2014)",
   "Luminescence study — ICRTSE-2016 proceedings",
   "Rare earth activated Sr₂SiO₄ phosphor — Springer Nature (2017)",
+  "Retraction Note: Synthesis, characterization and luminescence studies of rare earth activated Sr₂SiO₄ phosphor: a review — Journal of Materials Science: Materials in Electronics (2024)",
 ];
 
 const AchievementsSection = () => (
