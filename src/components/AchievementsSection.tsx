@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Trophy, FileText } from "lucide-react";
+import { Trophy, BookOpen } from "lucide-react";
 
 const achievements = [
   "Certified Microsoft Innovative Educator",
