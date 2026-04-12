@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Trophy, FileText } from "lucide-react";
+import { Trophy, BookOpen } from "lucide-react";
 
 const achievements = [
   "Certified Microsoft Innovative Educator",
@@ -59,7 +59,7 @@ const AchievementsSection = () => (
         >
           <div className="flex items-center gap-3 mb-6">
             <div className="w-10 h-10 rounded-full bg-cyan-light flex items-center justify-center">
-              <FileText className="w-5 h-5 text-accent" />
+              <BookOpen className="w-5 h-5 text-accent" />
             </div>
             <h3 className="font-heading font-bold text-xl">Major Publications</h3>
           </div>
