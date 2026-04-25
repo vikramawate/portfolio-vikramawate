@@ -64,9 +64,23 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-primary-foreground/50">Email</p>
-                  <a href="mailto:vikramawate82@gmail.com" className="hover:text-accent transition-colors">vikramawate82@gmail.com</a>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=vikramawate82@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-accent transition-colors"
+                  >
+                    vikramawate82@gmail.com
+                  </a>
                   <br />
-                  <a href="mailto:awatevikram@gmail.com" className="hover:text-accent transition-colors text-sm text-primary-foreground/70">awatevikram@gmail.com</a>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=awatevikram@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-accent transition-colors text-sm text-primary-foreground/70"
+                  >
+                    awatevikram@gmail.com
+                  </a>
                 </div>
               </div>
             </div>
